@@ -1,0 +1,13 @@
+.Search {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.Search__movieinfo {
+  color: #efefef;
+}
+@media only screen and (max-width: 800px) {
+  .Search {
+    justify-content: center;
+  }
+}

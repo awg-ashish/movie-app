@@ -1,0 +1,31 @@
+.Search {
+  padding-top: 1rem;
+}
+.Search input {
+  /* height: 2.5rem; */
+  width: 350px;
+  background-color: #202020;
+  border-radius: 8px;
+  border: 1px solid #444;
+  color: #cdcdcd;
+  padding: 1rem;
+}
+*:focus {
+  outline: none;
+}
+.Search button {
+  margin-left: 2px;
+  text-decoration: none;
+  color: #cdcdcd;
+  padding: 1rem;
+  background-color: #010101;
+  border: 1px solid rgb(32, 32, 32);
+  border-radius: 8px;
+  transition: all 0.2s ease-in-out;
+}
+@media only screen and (max-width: 800px) {
+  .Search input {
+    margin-top: 1rem;
+    width: 200px;
+  }
+}
